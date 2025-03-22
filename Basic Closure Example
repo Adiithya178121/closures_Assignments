@@ -1,0 +1,8 @@
+function outterfunction() {
+    let message = "hello world";
+    return function (){
+        console.log(message)
+    }
+}
+let result = outterfunction()
+result ()
